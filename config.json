@@ -1,0 +1,50 @@
+{
+  "Version": "1.0.0",
+  "ReleaseNotes": "Atualização disponível",
+  "UrlUpdate": "http://github.com/danieldjmix/Telefone/raw/refs/heads/main/Config.json",
+  "Sms": "",
+  "EmailFeedback": "",
+  "UrlContato": "",
+  "UrlTermos": "",
+  "CheckUser": "true",
+  "Udp": [
+    {
+      "Porta": "7300"
+    }
+  ],
+  "Servers": [
+    {
+      "Name": "VIVO-BR",
+      "TYPE": "PREMIUM",
+      "FLAG": "br.png",
+      "ServerIP": "209.14.2.92",
+      "CheckUser": "http://209.14.2.92:5353/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    }
+  ],
+  "Networks": [
+    {
+      "Name": "🟣 VIVO Cloud",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: 209.14.2.92[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "209.14.2.92",
+      "TlsIP": "209.14.2.92",
+      "ProxyIP": "209.14.2.92",
+      "ProxyPort": "80",
+      "Info": "Proxy"     
+    },
+    {
+      "Name": "🟣 VIVO Cloud",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: 209.14.2.92[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "209.14.2.92",
+      "TlsIP": "209.14.2.92",
+      "ProxyIP": "209.14.2.92",
+      "ProxyPort": "8080",
+      "Info": "Proxy"     
+    }
+  ]
+}
