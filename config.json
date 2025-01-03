@@ -14,7 +14,7 @@
   ],
   "Servers": [
     {
-      "Name": "VIVO-BR",
+      "Name": "VIVO-1",
       "TYPE": "PREMIUM",
       "FLAG": "br.png",
       "ServerIP": "185.194.204.66",
@@ -27,24 +27,24 @@
   ],
   "Networks": [
     {
-      "Name": "🟣 VIVO Cloud",
+      "Name": "💚VIVO NORMAL",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: 185.194.204.66[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: 185.194.204.66[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "185.194.204.66",
       "TlsIP": "185.194.204.66",
       "ProxyIP": "185.194.204.66",
       "ProxyPort": "80",
-      "Info": "Proxy"     
+      "Info": "Proxy"
     },
     {
-      "Name": "🟣 VIVO Cloud",
+      "Name": "💚VIVO PROXI",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: 185.194.204.66[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "185.194.204.66",
-      "TlsIP": "185.194.204.66",
+      "Payload": "GET / HTTP/1.1[crlf]Host: 185.194.204.66[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
       "ProxyIP": "185.194.204.66",
-      "ProxyPort": "8080",
-      "Info": "Proxy"     
+      "ProxyPort": "80",
+      "Info": "Proxy"
     }
   ]
 }
