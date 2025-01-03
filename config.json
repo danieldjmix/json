@@ -1,6 +1,6 @@
 {
-  "Version": "16",
-  "ReleaseNotes": "Atualização (16) disponível",
+  "Version": "17",
+  "ReleaseNotes": "Atualização (17) disponível",
   "UrlUpdate": "https://github.com/danieldjmix/json/raw/refs/heads/main/config.json",
   "Sms": "",
   "EmailFeedback": "",
@@ -14,7 +14,7 @@
   ],
   "Servers": [
     {
-      "Name": "Versão 16",
+      "Name": "Versão 17",
       "TYPE": "PREMIUM",
       "FLAG": "br.png",
       "ServerIP": "185.194.204.66",
