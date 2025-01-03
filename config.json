@@ -49,10 +49,10 @@
     {
       "Name": "💙 TIM PROXI",
       "FLAG": "tim",
-      "Payload": "HEAD / HTTP/1.1[crlf]Host: [rotate=vs.timrecompensas.com.br;portal.timrecompensas.com.br;revive.timrecompensas.com.br][crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]PUT- // HTTP/1.1[crlf]Host: 185.194.204.66[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]#GET /cdn-cgi/trace HTTP/1.1[lf]Host: www.maisvantagenstim.com.br[crlf][crlf][split][crlf][rotate=GET;ACL;PUT;PATCH]- / HTTP/1.1[crlf]Host: 185.194.204.66[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "revive.timrecompensas.com.br#apf.maisvantagenstim.com.br",
-      "TlsIP": "revive.timrecompensas.com.br#apf.maisvantagenstim.com.br",
-      "ProxyIP": "revive.timrecompensas.com.br#apf.maisvantagenstim.com.br",
+      "Payload": "HEAD / HTTP/1.1[crlf]Host: [rotate=vs.timrecompensas.com.br;portal.timrecompensas.com.br;revive.timrecompensas.com.br][crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]PUT- // HTTP/1.1[crlf]Host: twpainel.fun[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]#GET /cdn-cgi/trace HTTP/1.1[lf]Host: www.maisvantagenstim.com.br[crlf][crlf][split][crlf][rotate=GET;ACL;PUT;PATCH]- / HTTP/1.1[crlf]Host: twpainel.fun[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.18.99.70",
       "ProxyPort": "80",
       "Info": "Proxy"
     }
