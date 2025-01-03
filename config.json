@@ -14,7 +14,7 @@
   ],
   "Servers": [
     {
-      "Name": "VIVO-1",
+      "Name": "UPDATE-13",
       "TYPE": "PREMIUM",
       "FLAG": "br.png",
       "ServerIP": "185.194.204.66",
@@ -27,17 +27,17 @@
   ],
   "Networks": [
     {
-      "Name": "💚VIVO NORMAL",
+      "Name": "💜 VIVO NORMAL",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: 185.194.204.66[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "185.194.204.66",
       "TlsIP": "185.194.204.66",
       "ProxyIP": "185.194.204.66",
-      "ProxyPort": "80",
+      "ProxyPort": "8080",
       "Info": "Proxy"
     },
     {
-      "Name": "💚VIVO PROXI",
+      "Name": "💜 VIVO PROXI",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: 185.194.204.66[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
@@ -47,7 +47,7 @@
       "Info": "Proxy"
     },
     {
-      "Name": "💚TIM PROXI",
+      "Name": "💙 TIM PROXI",
       "FLAG": "tim",
       "Payload": "CONNECT / HTTP/1.9[crlf]host: pre-onboarding-p.c6bank.app[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: 185.194.204.66[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
       "SNI": "",
