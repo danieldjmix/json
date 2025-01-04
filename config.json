@@ -1,6 +1,6 @@
 {
-  "Version": "17",
-  "ReleaseNotes": "Atualização (17) disponível",
+  "Version": "18",
+  "ReleaseNotes": "Atualização (18) disponível",
   "UrlUpdate": "https://github.com/danieldjmix/json/raw/refs/heads/main/config.json",
   "Sms": "",
   "EmailFeedback": "",
@@ -14,7 +14,7 @@
   ],
   "Servers": [
     {
-      "Name": "Versão 17",
+      "Name": "Versão 18",
       "TYPE": "PREMIUM",
       "FLAG": "br.png",
       "ServerIP": "185.194.204.66",
@@ -43,16 +43,6 @@
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "185.194.204.66",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "💙 TIM PROXI",
-      "FLAG": "tim",
-      "Payload": "HEAD / HTTP/1.1[crlf]Host: [rotate=vs.timrecompensas.com.br;portal.timrecompensas.com.br;revive.timrecompensas.com.br][crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]PUT- // HTTP/1.1[crlf]Host: twpainel.fun[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]#GET /cdn-cgi/trace HTTP/1.1[lf]Host: www.maisvantagenstim.com.br[crlf][crlf][split][crlf][rotate=GET;ACL;PUT;PATCH]- / HTTP/1.1[crlf]Host: twpainel.fun[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.18.99.70",
       "ProxyPort": "80",
       "Info": "Proxy"
     }
