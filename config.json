@@ -1,6 +1,6 @@
 {
-  "Version": "20.1",
-  "ReleaseNotes": "Atualização (20.1) disponível",
+  "Version": "21",
+  "ReleaseNotes": "Atualização (21) disponível",
   "UrlUpdate": "https://github.com/danieldjmix/json/raw/refs/heads/main/config.json",
   "Sms": "",
   "EmailFeedback": "",
@@ -14,7 +14,7 @@
   ],
   "Servers": [
     {
-      "Name": "Versão 20.1",
+      "Name": "Versão 21",
       "TYPE": "PREMIUM",
       "FLAG": "br.png",
       "ServerIP": "185.194.204.66",
