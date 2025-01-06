@@ -1,6 +1,6 @@
 {
-  "Version": "19",
-  "ReleaseNotes": "Atualização (19) disponível",
+  "Version": "20",
+  "ReleaseNotes": "Atualização (20) disponível",
   "UrlUpdate": "https://github.com/danieldjmix/json/raw/refs/heads/main/config.json",
   "Sms": "",
   "EmailFeedback": "",
@@ -14,7 +14,7 @@
   ],
   "Servers": [
     {
-      "Name": "Versão 18",
+      "Name": "Versão 20",
       "TYPE": "PREMIUM",
       "FLAG": "br.png",
       "ServerIP": "185.194.204.66",
@@ -27,14 +27,14 @@
   ],
   "Networks": [
     {
-      "Name": "💜 VIVO TLS",
+      "Name": "💜 VIVO TLSWS",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: 185.194.204.66[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "185.194.204.66",
-      "TlsIP": "185.194.204.66",
+      "Payload": "HEAD / HTTP/1.1[crlf]Host: [rotate=vs.timrecompensas.com.br;portal.timrecompensas.com.br;revive.timrecompensas.com.br][crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]PUT- // HTTP/1.1[crlf]Host: 185.194.204.66[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]#GET /cdn-cgi/trace HTTP/1.1[lf]Host: www.maisvantagenstim.com.br[crlf][crlf][split][crlf][rotate=GET;ACL;PUT;PATCH]- / HTTP/1.1[crlf]Host: 185.194.204.66[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "http://revive.timrecompensas.com.br#apf.maisvantagenstim.com.br",
       "ProxyIP": "",
       "ProxyPort": "80",
-      "Info": "tls"
+      "Info": "tlsws"
     },
     {
       "Name": "💜 VIVO PROXI",
