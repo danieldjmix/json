@@ -1,6 +1,6 @@
 {
-  "Version": "18",
-  "ReleaseNotes": "Atualização (18) disponível",
+  "Version": "19",
+  "ReleaseNotes": "Atualização (19) disponível",
   "UrlUpdate": "https://github.com/danieldjmix/json/raw/refs/heads/main/config.json",
   "Sms": "",
   "EmailFeedback": "",
@@ -27,14 +27,14 @@
   ],
   "Networks": [
     {
-      "Name": "💜 VIVO NORMAL",
+      "Name": "💜 VIVO TLS",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: 185.194.204.66[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "185.194.204.66",
       "TlsIP": "185.194.204.66",
-      "ProxyIP": "185.194.204.66",
-      "ProxyPort": "8080",
-      "Info": "Proxy"
+      "ProxyIP": "",
+      "ProxyPort": "80",
+      "Info": "tls"
     },
     {
       "Name": "💜 VIVO PROXI",
