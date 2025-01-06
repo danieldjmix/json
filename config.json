@@ -1,6 +1,6 @@
 {
-  "Version": "22",
-  "ReleaseNotes": "Atualização (22) disponível",
+  "Version": "20.1",
+  "ReleaseNotes": "Atualização (20.1) disponível",
   "UrlUpdate": "https://github.com/danieldjmix/json/raw/refs/heads/main/config.json",
   "Sms": "",
   "EmailFeedback": "",
@@ -14,7 +14,7 @@
   ],
   "Servers": [
     {
-      "Name": "Versão 22",
+      "Name": "Versão 20.1",
       "TYPE": "PREMIUM",
       "FLAG": "br.png",
       "ServerIP": "185.194.204.66",
@@ -27,17 +27,17 @@
   ],
   "Networks": [
     {
-      "Name": "💜 VIVO TLSWS",
+      "Name": "💜 VIVO PROXI 1",
       "FLAG": "vivo",
-      "Payload": "ACL http://1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5[crlf]"
-      "SNI": "185.194.204.66",
-      "TlsIP": "185.194.204.66",
-      "ProxyIP": "",
+      "Payload": "ACL http://1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.1 HTTP/1.1[crlf]Host: http://1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5[crlf]"
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "185.194.204.66",
       "ProxyPort": "80",
-      "Info": "tlsws"
+      "Info": "Proxy 1"
     },
     {
-      "Name": "💜 VIVO PROXI",
+      "Name": "💜 VIVO PROXI 2",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: 185.194.204.66[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
