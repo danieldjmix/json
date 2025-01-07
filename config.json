@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.2",
+  "Version": "1.0.3",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/danieldjmix/json/refs/heads/main/config.json",
   "Sms": "BOTAR LINK DO SMS AQUI",
@@ -27,7 +27,7 @@
   ],
   "Networks": [
     {
-      "Name": "💚VIVO NORMAL",
+      "Name": "💜VIVO NORMAL",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: 185.194.204.66[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "185.194.204.66",
@@ -37,7 +37,7 @@
       "Info": "Proxy"
     },
     {
-      "Name": "💚VIVO PROXI",
+      "Name": "💜VIVO PROXI",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: 185.194.204.66[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
