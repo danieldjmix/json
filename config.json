@@ -1,7 +1,7 @@
 {
   "Version": "1.0.2",
   "ReleaseNotes": "Nova Atualização Disponível",
-  "UrlUpdate": "BOTAR LINK DA ATUALIZAÇÃO AQUI",
+  "UrlUpdate": "https://raw.githubusercontent.com/danieldjmix/json/refs/heads/main/config.json",
   "Sms": "BOTAR LINK DO SMS AQUI",
   "EmailFeedback": "apolossh@gmail.com",
   "UrlContato": "https://t.me/apolo_vx",
