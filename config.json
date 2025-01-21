@@ -27,16 +27,6 @@
   ],
   "Networks": [
     {
-      "Name": "💜VIVO 1",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: 185.194.204.66[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "185.194.204.66",
-      "TlsIP": "185.194.204.66",
-      "ProxyIP": "185.194.204.66",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
       "Name": "💜VIVO 2",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: 185.194.204.66[crlf]Upgrade: websocket[crlf][crlf]",
@@ -50,9 +40,9 @@
       "Name": "💜VIVO Cloud",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: topwey.shop[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "185.194.204.66",
+      "SNI": "topwey.shop",
+      "TlsIP": "topwey.shop",
+      "ProxyIP": "topwey.shop",
       "ProxyPort": "80",
       "Info": "Proxy"
     }
