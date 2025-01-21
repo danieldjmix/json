@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.4",
-  "ReleaseNotes": "Nova Atualização Disponível",
+  "Version": "1.0.5",
+  "ReleaseNotes": "Nova Atualização 1.0.5 Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/danieldjmix/json/refs/heads/main/config.json",
   "Sms": "",
   "EmailFeedback": "",
@@ -14,12 +14,12 @@
   ],
   "Servers": [
     {
-      "Name": "Servidor BR",
+      "Name": "QNAX 1.0.5",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "185.194.204.66",
       "CheckUser": "http://2804:5364:7000:1:1:1:f9cd:63d2:5353/checkUser",
-      "ServerPort": "80",
+      "ServerPort": "22",
       "SSLPort": "",
       "USER": "",
       "PASS": ""
