@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.5",
-  "ReleaseNotes": "Nova Atualização 1.0.5 Disponível",
+  "Version": "1.0.6",
+  "ReleaseNotes": "Nova Atualização 1.0.6 Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/danieldjmix/json/refs/heads/main/config.json",
   "Sms": "",
   "EmailFeedback": "",
@@ -43,6 +43,16 @@
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "185.194.204.66",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "💜VIVO Cloud",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: topwey.shop[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "topwey.shop",
       "ProxyPort": "80",
       "Info": "Proxy"
     }
