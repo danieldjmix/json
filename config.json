@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.9",
-  "ReleaseNotes": "Nova Atualização 1.0.9 Disponível",
+  "Version": "1.0.10",
+  "ReleaseNotes": "Nova Atualização 1.0.10 Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/danieldjmix/json/refs/heads/main/config.json",
   "Sms": "",
   "EmailFeedback": "",
@@ -14,7 +14,7 @@
   ],
   "Servers": [
     {
-      "Name": "QNAX 1.0.9",
+      "Name": "QNAX 1.0.10",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "185.194.204.201",
@@ -27,7 +27,7 @@
   ],
   "Networks": [
     {
-      "Name": "💜VIVO 2",
+      "Name": "💜VIVO 1",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: 185.194.204.201[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
@@ -37,12 +37,12 @@
       "Info": "Proxy"
     },
     {
-      "Name": "💜VIVO Cloud",
+      "Name": "💜VIVO 2",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: topwey.shop[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "topwey.shop",
-      "TlsIP": "topwey.shop",
-      "ProxyIP": "topwey.shop",
+      "Payload": "GET / HTTP/1.1[crlf]Host: 185.194.204.201[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "185.194.204.201",
+      "TlsIP": "185.194.204.201",
+      "ProxyIP": "185.194.204.201",
       "ProxyPort": "80",
       "Info": "Proxy"
     }
