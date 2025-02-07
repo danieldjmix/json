@@ -1,6 +1,6 @@
 {
-  "Version": "1.1.5",
-  "ReleaseNotes": "Nova Atualização 1.1.5 Disponível",
+  "Version": "1.1.6",
+  "ReleaseNotes": "Nova Atualização 1.1.6 Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/danieldjmix/json/refs/heads/main/config.json",
   "Sms": "",
   "EmailFeedback": "",
@@ -14,7 +14,7 @@
   ],
   "Servers": [
     {
-      "Name": "QNAX 1.1.5",
+      "Name": "QNAX 1.1.6",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "185.194.204.201",
@@ -30,8 +30,8 @@
       "Name": "💜VIVO GET-PUT",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: 185.194.204.201[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]PUT / HTTP/1.1[crlf]Host: 185.194.204.201[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
+      "SNI": "185.194.204.201",
+      "TlsIP": "185.194.204.201",
       "ProxyIP": "185.194.204.201",
       "ProxyPort": "80",
       "Info": "Proxy"
@@ -40,8 +40,8 @@
       "Name": "💜VIVO GET",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: 185.194.204.201[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
+      "SNI": "185.194.204.201",
+      "TlsIP": "185.194.204.201",
       "ProxyIP": "185.194.204.201",
       "ProxyPort": "80",
       "Info": "Proxy"
@@ -50,8 +50,8 @@
       "Name": "💜VIVO PUT",
       "FLAG": "vivo",
       "Payload": "PUT / HTTP/1.1[crlf]Host: 185.194.204.201[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
+      "SNI": "185.194.204.201",
+      "TlsIP": "185.194.204.201",
       "ProxyIP": "185.194.204.201",
       "ProxyPort": "80",
       "Info": "Proxy"
