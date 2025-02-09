@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.7",
+  "Version": "1.1.8",
   "ReleaseNotes": "Nova Atualização 1.1.6 Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/danieldjmix/json/refs/heads/main/config.json",
   "Sms": "",
@@ -14,7 +14,7 @@
   ],
   "Servers": [
     {
-      "Name": "QNAX 1.1.7",
+      "Name": "QNAX 1.1.8",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "185.194.204.201",
@@ -43,7 +43,7 @@
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "185.194.204.201",
-      "ProxyPort": "80",
+      "ProxyPort": "8080",
       "Info": "Proxy"
     }
   ]
