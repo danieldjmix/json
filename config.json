@@ -1,6 +1,6 @@
 {
-  "Version": "1.1.12",
-  "ReleaseNotes": "Nova Atualização 1.1.12 Disponível",
+  "Version": "1.1.13",
+  "ReleaseNotes": "Nova Atualização 1.1.13 Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/danieldjmix/json/refs/heads/main/config.json",
   "Sms": "",
   "EmailFeedback": "",
@@ -14,7 +14,7 @@
   ],
   "Servers": [
     {
-      "Name": "QNAX 1.1.12",
+      "Name": "QNAX 1.1.13",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "185.194.205.174",
