@@ -1,6 +1,6 @@
 {
-  "Version": "1.1.18",
-  "ReleaseNotes": "Nova Atualização 1.1.18 Disponível",
+  "Version": "1.1.19",
+  "ReleaseNotes": "Nova Atualização 1.1.19 Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/danieldjmix/json/refs/heads/main/config.json",
   "Sms": "",
   "EmailFeedback": "",
@@ -14,7 +14,7 @@
   ],
   "Servers": [
     {
-      "Name": "QNAX 1.1.18",
+      "Name": "QNAX 1.1.19",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "179.127.16.150",
@@ -30,8 +30,8 @@
       "Name": "💜VIVO 1",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: 179.127.16.150[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
+      "SNI": "179.127.16.150",
+      "TlsIP": "179.127.16.150",
       "ProxyIP": "179.127.16.150",
       "ProxyPort": "80",
       "Info": "Proxy"
@@ -40,8 +40,8 @@
       "Name": "💜VIVO 2",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: 179.127.16.150[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
+      "SNI": "179.127.16.150",
+      "TlsIP": "179.127.16.150",
       "ProxyIP": "179.127.16.150",
       "ProxyPort": "8080",
       "Info": "Proxy"
