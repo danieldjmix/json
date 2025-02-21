@@ -1,6 +1,6 @@
 {
-  "Version": "1.1.15",
-  "ReleaseNotes": "Nova Atualização 1.1.15 Disponível",
+  "Version": "1.1.16",
+  "ReleaseNotes": "Nova Atualização 1.1.16 Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/danieldjmix/json/refs/heads/main/config.json",
   "Sms": "",
   "EmailFeedback": "",
@@ -14,11 +14,11 @@
   ],
   "Servers": [
     {
-      "Name": "QNAX 1.1.15",
+      "Name": "QNAX 1.1.16",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "185.194.204.201",
-      "CheckUser": "http://2804:5364:7000:1:a3:1:485b:c0f5:5353/checkUser",
+      "CheckUser": "http://179.127.16.150:5353/checkUser",
       "ServerPort": "22",
       "SSLPort": "",
       "USER": "",
@@ -29,20 +29,20 @@
     {
       "Name": "💜VIVO 1",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: 185.194.204.201[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: 179.127.16.150[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "185.194.204.201",
+      "ProxyIP": "179.127.16.150",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
     {
       "Name": "💜VIVO 2",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: 185.194.204.201[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: 179.127.16.150[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "185.194.205.174",
+      "ProxyIP": "179.127.16.150",
       "ProxyPort": "8080",
       "Info": "Proxy"
     }
