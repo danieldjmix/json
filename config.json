@@ -1,6 +1,6 @@
 {
-  "Version": "1.1.22",
-  "ReleaseNotes": "Nova Atualização 1.1.22 Disponível",
+  "Version": "1.1.23",
+  "ReleaseNotes": "Nova Atualização 1.1.23 Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/danieldjmix/json/refs/heads/main/config.json",
   "Sms": "",
   "EmailFeedback": "",
@@ -14,7 +14,7 @@
   ],
   "Servers": [
     {
-      "Name": "QNAX 1.1.22",
+      "Name": "QNAX 1.1.23",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "185.194.204.201",
@@ -43,7 +43,7 @@
       "SNI": "http://legado.vivo.com.br",
       "TlsIP": "185.194.204.201",
       "ProxyIP": "",
-      "ProxyPort": "8080",
+      "ProxyPort": "443",
       "Info": "Tlsws"
     }
   ]
