@@ -1,6 +1,6 @@
 {
-  "Version": "1.1.24",
-  "ReleaseNotes": "Nova Atualização 1.1.24 Disponível",
+  "Version": "1.1.25",
+  "ReleaseNotes": "Nova Atualização 1.1.25 Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/danieldjmix/json/refs/heads/main/config.json",
   "Sms": "",
   "EmailFeedback": "",
@@ -14,7 +14,7 @@
   ],
   "Servers": [
     {
-      "Name": "QNAX 1.1.24",
+      "Name": "QNAX 1.1.25",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "185.194.204.201",
@@ -27,24 +27,14 @@
   ],
   "Networks": [
     {
-      "Name": "💜VIVO 1",
+      "Name": "💜VIVO",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host 185.194.204.201[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "http://unpkg.com",
+      "Payload": "GET wss://vivo360.vivo.com.br/ HTTP/1.1[crlf]Host: 185.194.204.201[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "",
       "TlsIP": "",
       "ProxyIP": "185.194.204.201",
       "ProxyPort": "80",
       "Info": "Proxy"
-    },
-    {
-      "Name": "💜VIVO 2",
-      "FLAG": "vivo",
-      "Payload": "ACL http://1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5[crlf] https://1.1.1rotate=portalrecarga.vivo.com.br;1.0.0.5recarga/home/;recarga.claro.com.br/no-credit][crlf]X-Forwarded-For: [rotate=portalrecarga.vivo.com.br/recarga/home/;recarga.claro.com.br/no-credit][crlf]Connection: Keep-Alive[crlf]Upgrade: websocket[crlf][crlf]#[delay_split][lf]GET / HTTP/1.1[lf]Host: portal.vivo.com.br[lf]#[delay_split][lf]GET / HTTP/1.1[lf]Host: vivo.com.br[lf]#[delay_split] ACL / HTTP/1.1[crlf]Host:[random= 104.18.6.80;104.18.7.80;162.159.138.6;162.159.128.7;104.17.70.206;104.17.71.206;104.17.72.206;104.17.73.206;104.17.74.206;172.64.144.109;104.18.43.147;104.18.7.41][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]#[delay_split]PUT / Cache-Control: private: 13.33.131.6[crlf]#PATCH /cardoso HTTP/1.1[crlf]Host: chacal.ilovebirds.site[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "185.194.204.201",
-      "TlsIP": "185.194.204.201",
-      "ProxyIP": "185.194.204.201",
-      "ProxyPort": "80",
-      "Info": "Tlsws"
     }
   ]
 }
