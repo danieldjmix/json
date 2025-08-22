@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.12",
-  "ReleaseNotes": "Nova Atualização 1.1.10 Disponível",
+  "Version": "1.0.13",
+  "ReleaseNotes": "Nova Atualização 1.1.13 Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/danieldjmix/json/refs/heads/main/config.json",
   "Sms": "",
   "EmailFeedback": "",
@@ -14,7 +14,7 @@
   ],
   "Servers": [
     {
-      "Name": "1.0.12",
+      "Name": "1.0.13",
       "TYPE": "PREMIUM",
       "FLAG": "br.png",
       "ServerIP": "179.127.16.134",
@@ -27,7 +27,7 @@
   ],
   "Networks": [
     {
-      "Name": "💜VIVO",
+      "Name": "💜VIVO Cloud",
       "FLAG": "vivo",
       "Payload": "GET wss://vivo360.vivo.com.br/ HTTP/1.1[crlf]Host: sptcns.site[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "sptcns.site",
