@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.14",
-  "ReleaseNotes": "Nova Atualização 1.0.14 Disponível",
+  "Version": "1.0.15",
+  "ReleaseNotes": "Nova Atualização 1.0.15 Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/danieldjmix/json/refs/heads/main/config.json",
   "Sms": "",
   "EmailFeedback": "",
@@ -14,7 +14,7 @@
   ],
   "Servers": [
     {
-      "Name": "1.0.14",
+      "Name": "1.0.15",
       "TYPE": "PREMIUM",
       "FLAG": "br.png",
       "ServerIP": "179.127.16.134",
@@ -29,7 +29,7 @@
     {
       "Name": "💜VIVO Cloud",
       "FLAG": "vivo",
-      "Payload": "GET- / HTTP/1.1[crlf]Host: sptcns.site[lf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: sptcns.site[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "sptcns.site",
       "TlsIP": "sptcns.site",
       "ProxyIP": "sptcns.site",
@@ -37,9 +37,9 @@
       "Info": "Proxy"
     },
     {
-      "Name": "🟣 VIVO Direct",
+      "Name": "🟣 VIVO PROXI",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: 179.127.16.134[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "ACL / HTTP/1.9[lf]Host: sptcns.site[lf]Upgrade: Websocket[lf]User-Agent: Mobile Safari/9 OPR/9 [lf][split][lf]#PROPATCH/ HTTP/1.1[crlf]Host: sptcns.site[crlf]Upgrade: Websocket[crlf][crlf]#ACL / HTTP/1.1[crlf]Host: sptcns.site[crlf]Upgrade: Websocket[crlf][split][crlf]#GET / HTTP/1.1[crlf]Host: sptcns.site[crlf]Upgrade: Websocket[crlf][crlf]#GET / HTTP/1.1[crlf]Host: sptcns.site[crlf]Upgrade: Websocket[crlf][crlf]#PATCH sptcns.site HTTP/1.1[crlf]Host: sptcns.site[crlf]X-Online-Host: sptcns.site[crlf]User-Agent: [ua][crlf]Referer: sptcns.site[crlf][crlf]#CONNECT sptcns.site [protocol][crlf][split]PATCH sptcns.site HTTP/1.1[crlf]Host: sptcns.site[crlf]X-Online-Host: sptcns.site[crlf]User-Agent: [ua][crlf]Referer: sptcns.site[crlf][crlf]#[method] sptcns.site [protocol][crlf][split]PATCH sptcns.site [protocol][crlf]Host: sptcns.site[crlf]X-Online-Host: sptcns.site[crlf]User-Agent: [ua][crlf]Referer: sptcns.site[crlf][crlf]",
       "SNI": "179.127.16.134",
       "TlsIP": "179.127.16.134",
       "ProxyIP": "179.127.16.134",
