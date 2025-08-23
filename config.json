@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.16",
-  "ReleaseNotes": "Nova Atualização 1.0.16 Disponível",
+  "Version": "1.0.17",
+  "ReleaseNotes": "Nova Atualização 1.0.17 Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/danieldjmix/json/refs/heads/main/config.json",
   "Sms": "",
   "EmailFeedback": "",
@@ -14,12 +14,12 @@
   ],
   "Servers": [
     {
-      "Name": "1.0.16",
+      "Name": "1.0.17",
       "TYPE": "PREMIUM",
       "FLAG": "br.png",
       "ServerIP": "179.127.16.134",
       "CheckUser": "http://179.127.16.134:5353/checkUser",
-      "ServerPort": "22",
+      "ServerPort": "80",
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
@@ -33,18 +33,38 @@
       "SNI": "sptcns.site",
       "TlsIP": "sptcns.site",
       "ProxyIP": "sptcns.site",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+      "ProxyPort": "8080",
+      "Info": "8080"
     },
     {
-      "Name": "🟣 VIVO PROXI",
+      "Name": "💜VIVO PROXI",
+      "FLAG": "vivo",
+      "Payload": "PROPATCH/ HTTP/1.1[crlf]Host: 179.127.16.134[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "179.127.16.134",
+      "TlsIP": "179.127.16.134",
+      "ProxyIP": "179.127.16.134",
+      "ProxyPort": "8080",
+      "Info": "8080"     
+    },
+    {
+      "Name": "💜VIVO Cloud",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: sptcns.site[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "sptcns.site",
+      "TlsIP": "sptcns.site",
+      "ProxyIP": "sptcns.site",
+      "ProxyPort": "80",
+      "Info": "80"
+    },
+    {
+      "Name": "💜VIVO PROXI",
       "FLAG": "vivo",
       "Payload": "PROPATCH/ HTTP/1.1[crlf]Host: 179.127.16.134[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "179.127.16.134",
       "TlsIP": "179.127.16.134",
       "ProxyIP": "179.127.16.134",
       "ProxyPort": "80",
-      "Info": "Proxy"     
+      "Info": "80"     
     }
   ]
 }
