@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.17",
-  "ReleaseNotes": "Nova Atualização 1.0.17 Disponível",
+  "Version": "1.0.18",
+  "ReleaseNotes": "Nova Atualização 1.0.18 Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/danieldjmix/json/refs/heads/main/config.json",
   "Sms": "",
   "EmailFeedback": "",
@@ -14,7 +14,7 @@
   ],
   "Servers": [
     {
-      "Name": "1.0.17",
+      "Name": "1.0.18",
       "TYPE": "PREMIUM",
       "FLAG": "br.png",
       "ServerIP": "179.127.16.134",
@@ -27,44 +27,44 @@
   ],
   "Networks": [
     {
-      "Name": "💜VIVO Cloud",
+      "Name": "💜VIVO Cloud 8080",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: sptcns.site[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "[split]ACL http://1.1.1.1rotate= buzzfeed.com;mobile.adobe.com ;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate= buzzfeed.com; myspace.com;mobile.google.com ;1.0.0.5[crlf]",
       "SNI": "sptcns.site",
       "TlsIP": "sptcns.site",
       "ProxyIP": "sptcns.site",
       "ProxyPort": "8080",
-      "Info": "8080"
+      "Info": "proxy"
     },
     {
-      "Name": "💜VIVO PROXI",
+      "Name": "💜VIVO proxy 8080",
       "FLAG": "vivo",
-      "Payload": "PROPATCH/ HTTP/1.1[crlf]Host: 179.127.16.134[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: 179.127.16.134[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "179.127.16.134",
       "TlsIP": "179.127.16.134",
       "ProxyIP": "179.127.16.134",
       "ProxyPort": "8080",
-      "Info": "8080"     
+      "Info": "proxy"     
     },
     {
-      "Name": "💜VIVO Cloud",
+      "Name": "💜VIVO Cloud 80",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: sptcns.site[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: sptcns.site[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "sptcns.site",
       "TlsIP": "sptcns.site",
       "ProxyIP": "sptcns.site",
       "ProxyPort": "80",
-      "Info": "80"
+      "Info": "proxy"
     },
     {
-      "Name": "💜VIVO PROXI",
+      "Name": "💜VIVO PROXI 80",
       "FLAG": "vivo",
-      "Payload": "PROPATCH/ HTTP/1.1[crlf]Host: 179.127.16.134[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: 179.127.16.134[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "179.127.16.134",
       "TlsIP": "179.127.16.134",
       "ProxyIP": "179.127.16.134",
       "ProxyPort": "80",
-      "Info": "80"     
+      "Info": "proxy"     
     }
   ]
 }
